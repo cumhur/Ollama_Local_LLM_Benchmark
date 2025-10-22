@@ -88,8 +88,3 @@ The interactive dashboard provides:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-Eğer isterseniz, bir sonraki adım olarak yerel repo başlatma, commit atma ve GitHub'a push etme komutlarını bende çalıştırmamı sağlayabilirsiniz. Bunun için:
- - Bilgisayarınızda `gh` CLI yüklü ve oturum açmış olmalı; ya da
- - GitHub kullanıcı adınızı ve repo ismini verip, manuel adımları takip etmenize yardımcı olabilirim.
-
-Hangi yolu tercih ediyorsunuz? Otomatik (`gh`) ile devam edeyim mi, yoksa önce lisans ve diğer kontrolleri birlikte gözden mi geçelim?
