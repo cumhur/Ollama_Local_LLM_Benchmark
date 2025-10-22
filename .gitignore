@@ -1,0 +1,47 @@
+venv/
+venv.bak/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs and databases
+*.log
+logs/
+results/
+telemetry/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+*.tmp
