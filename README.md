@@ -88,42 +88,6 @@ The interactive dashboard provides:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Publishing this project to GitHub (quick guide)
-
-Aşağıdaki adımlar, projeyi kendi GitHub hesabınızda public bir repository olarak yayınlamanız için gerekli temel komutları içerir. İsterseniz bu adımları manuel olarak takip edebilir veya GitHub CLI (`gh`) yüklüyse otomatikleştirebilirsiniz.
-
-1) Yerel repo oluştur ve ilk commit:
-
-```bash
-cd /path/to/Ollama_Local_LLM_Benchmark
-git init
-git branch -M main
-git add .
-git commit -m "Initial commit: Ollama_Local_LLM_Benchmark"
-```
-
-2) Yeni bir public repository oluşturma ve push (GitHub CLI yüklü ve oturum açıksa):
-
-```bash
-# Replace <username> ve <repo-name> ile
-gh repo create <username>/<repo-name> --public --source=. --remote=origin --push
-```
-
-Alternatif (web arayüzü kullanarak):
- - GitHub'da yeni bir repository oluşturun (Public seçin).
- - Oluşturduğunuz repo için size verilen `git remote add origin ...` komutunu çalıştırın ve `git push -u origin main` ile gönderin.
-
-3) Önemli notlar
- - README dosyasında script adı olarak `ollama_benchmark_setup_v6.py` kullanıldığına dikkat edin.
- - Kişisel veriler ya da gizli anahtar içeren dosyaları `.gitignore` içine eklediğimize dikkat edin (örn. `.env`).
- - `results/`, `telemetry/` ve `logs/` gibi üretim verisi klasörleri zaten `.gitignore` içinde yer alıyor; versiyon kontrolüne yalnızca kaynak kod ve dokümantasyon ekleyin.
-
-4) Yardımcı ipuçları
- - Eğer GitHub Actions ile basit bir CI eklemek isterseniz, ben örnek bir workflow dosyası oluşturabilirim (örn. Python lint ve temel test). Devam etmemi ister misiniz?
-
----
-
 Eğer isterseniz, bir sonraki adım olarak yerel repo başlatma, commit atma ve GitHub'a push etme komutlarını bende çalıştırmamı sağlayabilirsiniz. Bunun için:
  - Bilgisayarınızda `gh` CLI yüklü ve oturum açmış olmalı; ya da
  - GitHub kullanıcı adınızı ve repo ismini verip, manuel adımları takip etmenize yardımcı olabilirim.
